@@ -4,10 +4,7 @@ import { fileURLToPath } from "url";
 import path from "path";
 
 const __filename = fileURLToPath(import.meta.url);
-<<<<<<< HEAD:backend/app.js
 
-=======
->>>>>>> d0852d9cfa7636cb7bd7ce53b3c8eacae3d410db:backend/src/app.js
 const __dirname = path.dirname(__filename);
 
 const app = express();
