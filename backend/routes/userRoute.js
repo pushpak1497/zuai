@@ -1,10 +1,10 @@
 import { Router } from "express";
-import { isAuthenticatedUser } from "../middlewares/authMiddleware.js";
+import { isAuthenticatedUser } from "../src/middlewares/authMiddleware.js";
 import {
   loginUser,
   logoutUser,
   registerUser,
-} from "../controllers/userController.js";
+} from "../src/controllers/userController.js";
 
 const router = Router();
 router.route("/register").post(registerUser);

@@ -5,8 +5,8 @@ import {
   getAllBlogs,
   getSpecificBlog,
   updateBlog,
-} from "../controllers/blogController.js";
-import { isAuthenticatedUser } from "../middlewares/authMiddleware.js";
+} from "../src/controllers/blogController.js";
+import { isAuthenticatedUser } from "../src/middlewares/authMiddleware.js";
 
 const router = Router();
 
